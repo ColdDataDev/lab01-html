@@ -2,11 +2,24 @@
 <html lang="uk">
 
 <head>
+<link rel="stylesheet" href="../styles/style.css">
+<link rel="stylesheet" href="../styles/responsive.css">
 <meta charset="UTF-8">
 <title>Про мене</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
+
+<header class="site-header">
+<nav class="nav-list">
+<a href="../index.html">Головна</a>
+<a href="about.html">Про мене</a>
+<a href="contact.html">Контакти</a>
+</nav>
+</header>
+
+<main class="container">
 
 <h1>Про мене</h1>
 
@@ -14,17 +27,33 @@
 
 <h2>Моє відео</h2>
 
-<video controls width="400">
+<video controls>
 <source src="../assets/media/demo.mp4" type="video/mp4">
-<p>Ваш браузер не підтримує відео.</p>
+<source src="../assets/media/demo.webm" type="video/webm">
+
+<p>
+Ваш браузер не підтримує відео.
+<a href="../assets/media/demo.mp4">Завантажити відео</a>
+</p>
 </video>
 
 <h2>Мій аудіотрек</h2>
 
 <audio controls>
 <source src="../assets/media/demo.mp3" type="audio/mpeg">
-<p>Ваш браузер не підтримує аудіо.</p>
+<source src="../assets/media/demo.ogg" type="audio/ogg">
+
+<p>
+Ваш браузер не підтримує аудіо.
+<a href="../assets/media/demo.mp3">Завантажити аудіо</a>
+</p>
 </audio>
+
+</main>
+
+<footer class="site-footer">
+<p>© 2026 Микола Єришканов</p>
+</footer>
 
 </body>
 </html>

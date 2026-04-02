@@ -2,43 +2,71 @@
 <html lang="uk">
 
 <head>
+<link rel="stylesheet" href="../styles/style.css">
+<link rel="stylesheet" href="../styles/responsive.css">
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Контакти</title>
 </head>
 
 <body>
 
+<header class="site-header">
+<nav class="nav-list">
+<a href="../index.html">Головна</a>
+<a href="about.html">Про мене</a>
+<a href="contact.html">Контакти</a>
+</nav>
+</header>
+
+<main class="container">
+
 <h1>Контакти</h1>
 
-<form method="get">
+<form method="get" class="form-group">
 
 <p>
 <label for="name">Ім'я:</label>
-<input id="name" type="text" required>
+<input id="name" name="name" type="text" required minlength="2">
 </p>
 
 <p>
 <label for="email">Email:</label>
-<input id="email" type="email" required>
+<input id="email" name="email" type="email" required>
 </p>
 
 <p>
 <label for="phone">Телефон:</label>
-<input id="phone" type="tel">
+<input id="phone" name="phone" type="tel">
 </p>
 
 <p>
 <label for="topic">Тема:</label>
-<select id="topic">
+<select id="topic" name="topic">
 <option>Навчання</option>
 <option>Співпраця</option>
 <option>Інше</option>
 </select>
 </p>
 
+<fieldset>
+<legend>Зручний спосіб зв’язку</legend>
+
+<label>
+<input type="radio" name="contactWay" value="email" checked>
+Email
+</label>
+
+<label>
+<input type="radio" name="contactWay" value="phone">
+Телефон
+</label>
+
+</fieldset>
+
 <p>
 <label for="message">Повідомлення</label><br>
-<textarea id="message" rows="5"></textarea>
+<textarea id="message" name="message" rows="5"></textarea>
 </p>
 
 <p>
@@ -51,6 +79,12 @@
 <button type="submit">Надіслати</button>
 
 </form>
+
+</main>
+
+<footer class="site-footer">
+<p>© 2026 Микола Єришканов</p>
+</footer>
 
 </body>
 </html>

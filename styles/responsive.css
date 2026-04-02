@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+nav {
+flex-direction: column;
+}
+
+.container {
+width: 95%;
+}
+
+h1 {
+font-size: 28px;
+}
+}

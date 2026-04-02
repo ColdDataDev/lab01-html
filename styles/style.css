@@ -1,0 +1,171 @@
+:root {
+--color-primary: #1d4e89;
+--color-accent: #ffb703;
+--color-bg: #f7f9fc;
+--color-surface: #ffffff;
+--color-text: #1f2937;
+--color-border: #d9e2ec;
+}
+
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+line-height: 1.6;
+color: var(--color-text);
+background-color: var(--color-bg);
+}
+
+.container {
+width: min(1100px, calc(100% - 32px));
+margin: 0 auto;
+}
+
+header {
+background: var(--color-primary);
+padding: 15px;
+}
+
+nav {
+display: flex;
+gap: 20px;
+justify-content: center;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+
+nav a:hover {
+color: var(--color-accent);
+}
+
+main {
+padding: 20px;
+}
+
+footer {
+background: var(--color-primary);
+color: white;
+text-align: center;
+padding: 10px;
+margin-top: 20px;
+}
+
+h1 {
+font-size: 36px;
+}
+
+h2 {
+margin-top: 20px;
+color: var(--color-primary);
+}
+
+p {
+margin-bottom: 15px;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+}
+
+th, td {
+border: 1px solid var(--color-border);
+padding: 10px;
+}
+
+th {
+background: var(--color-primary);
+color: white;
+}
+
+tr:nth-child(even) {
+background: #f2f2f2;
+}
+
+/* === ФОРМА === */
+form {
+background: var(--color-surface);
+padding: 20px;
+border-radius: 10px;
+max-width: 500px;
+margin: 20px auto;
+}
+
+input,
+select,
+textarea {
+width: 100%;
+padding: 10px;
+margin-top: 5px;
+margin-bottom: 10px;
+border: 1px solid var(--color-border);
+border-radius: 5px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+outline: none;
+border-color: var(--color-primary);
+}
+
+button {
+padding: 10px 15px;
+border: none;
+border-radius: 8px;
+background: var(--color-primary);
+color: white;
+cursor: pointer;
+}
+
+button:hover {
+background: var(--color-accent);
+}
+
+.section {
+background: white;
+padding: 20px;
+margin: 20px 0;
+border-radius: 10px;
+}
+
+.site-header {
+background: var(--color-primary);
+}
+
+.site-footer {
+background: var(--color-primary);
+}
+
+/* === FLEXBOX БЛОК === */
+.two-column {
+display: flex;
+gap: 20px;
+}
+
+video {
+width: 100%;
+max-width: 600px;
+}
+
+img {
+max-width: 100%;
+border-radius: 10px;
+}
+
+.card {
+background: white;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
