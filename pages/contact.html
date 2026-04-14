@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="../styles/style.css">
 <link rel="stylesheet" href="../styles/responsive.css">
 <meta charset="UTF-8">
+<script src="../js/main.js" defer></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Контакти</title>
 </head>
@@ -13,6 +14,7 @@
 
 <header class="site-header">
 <nav class="nav-list">
+<button class="theme-toggle">Тема</button>
 <a href="../index.html">Головна</a>
 <a href="about.html">Про мене</a>
 <a href="contact.html">Контакти</a>
@@ -23,7 +25,7 @@
 
 <h1>Контакти</h1>
 
-<form method="get" class="form-group">
+<form id="contact-form" class="form-group" method="get">
 
 <p>
 <label for="name">Ім'я:</label>
@@ -67,6 +69,7 @@ Email
 <p>
 <label for="message">Повідомлення</label><br>
 <textarea id="message" name="message" rows="5"></textarea>
+<p id="char-count">0 символів</p>
 </p>
 
 <p>
@@ -83,8 +86,10 @@ Email
 </main>
 
 <footer class="site-footer">
-<p>© 2026 Микола Єришканов</p>
+<p>© <span id="year"></span> Єришканов Микола</p>
 </footer>
+
+<button class="back-to-top" hidden>↑</button>
 
 </body>
 </html>

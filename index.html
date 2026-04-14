@@ -7,12 +7,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Мій перший HTML сайт">
 <title>Перший HTML сайт</title>
+<script src="./js/main.js" defer></script>
 </head>
 
 <body>
 
 <header class="site-header">
 <nav class="nav-list">
+<button class="theme-toggle">Тема</button>
 <a href="index.html">Головна</a>
 <a href="pages/about.html">Про мене</a>
 <a href="pages/contact.html">Контакти</a>
@@ -81,11 +83,36 @@
 </tbody>
 </table>
 
+<div class="accordion">
+    <button class="accordion-btn">Навичка 1</button>
+    <div class="accordion-content" hidden>HTML</div>
+
+    <button class="accordion-btn">Навичка 2</button>
+    <div class="accordion-content" hidden>CSS</div>
+</div>
+
+<button data-filter="all">Всі</button>
+<button data-filter="html">HTML</button>
+
+<div class="card" data-category="html">HTML</div>
+<div class="card" data-category="css">CSS</div>
+
+<img src="assets/img/html.png" class="open-modal">
+
+<div class="modal" hidden>
+    <div class="modal-content">
+        <button class="close-modal">X</button>
+        <img src="assets/img/html.png">
+    </div>
+</div>
+
 </main>
 
 <footer class="site-footer">
-<p>© 2026 Микола Єришканов</p>
+<p>© <span id="year"></span> Єришканов Микола</p>
 </footer>
+
+<button class="back-to-top" hidden>↑</button>
 
 </body>
 </html>
