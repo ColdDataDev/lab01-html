@@ -86,22 +86,22 @@
 =======
 ## Screenshots
 
-![alt text](screenshot-1-prtk7-8.png)
+![assets/screenshots/screenshot-1-prtk7-8.png](assets/screenshots/screenshot-1-prtk7-8.png)
 
-![alt text](screenshot-2-prtk7-8.png)
+![assets\screenshots\screenshot-2-prtk7-8.png](assets/screenshots/screenshot-2-prtk7-8.png)
 
-![alt text](screenshot-3-prtk7-8.png)
+![assets/screenshots/screenshot-3-prtk7-8.png](assets/screenshots/screenshot-3-prtk7-8.png)
 
-![alt text](screenshot-4-prtk7-8.png)
+![assets\screenshots\screenshot-4-prtk7-8.png](assets/screenshots/screenshot-4-prtk7-8.png)
 
-![alt text](screenshot-5-prtk7-8.png)
+![assets\screenshots\screenshot-5-prtk7-8.png](assets/screenshots/screenshot-5-prtk7-8.png)
 
-![alt text](screenshot-6-prtk7-8.png)
+![assets\screenshots\screenshot-6-prtk7-8.png](assets/screenshots/screenshot-6-prtk7-8.png)
 
-![alt text](screenshot-7-prtk7-8.png)
+![assets\screenshots\screenshot-7-prtk7-8.png](assets/screenshots/screenshot-7-prtk7-8.png)
 
-![alt text](screenshot-8-prtk7-8.png)
+![assets\screenshots\screenshot-8-prtk7-8.png](assets/screenshots/screenshot-8-prtk7-8.png)
 
-![alt text](screenshot-9-prtk7-8.png)
+![assets\screenshots\screenshot-9-prtk7-8.png](assets/screenshots/screenshot-9-prtk7-8.png)
 
-![alt text](screenshot-10-prtk7-8.png)
+![assets\screenshots\screenshot-10-prtk7-8.png](assets/screenshots/screenshot-10-prtk7-8.png)
