@@ -63,7 +63,7 @@
 
 <img width="1174" height="933" alt="screenshot-3-mobile" src="https://github.com/user-attachments/assets/d90c54e3-00e6-459a-bb68-ecdc6895ee62" />
 
-# Lab03 — JavaScript для мінісайту
+# Lab 03 — JavaScript
 
 ## Опис
 У цьому проєкті реалізовано інтерактивність для HTML/CSS сайту за допомогою JavaScript.
@@ -105,3 +105,33 @@
 ![assets\screenshots\screenshot-9-prtk7-8.png](assets/screenshots/screenshot-9-prtk7-8.png)
 
 ![assets\screenshots\screenshot-10-prtk7-8.png](assets/screenshots/screenshot-10-prtk7-8.png)
+
+# Lab 04 JavaScript
+
+## Реалізовано:
+- fetch() + JSON
+- каталог курсів
+- пошук
+- фільтр
+- сортування
+- показати ще
+- обране (localStorage)
+
+## Запуск:
+Відкрити у VS Code з Live Server
+=======
+## Screenshots
+
+![assets\screenshots\screenshot-1-prtk9-10.png](assets/screenshots/screenshot-1-prtk9-10.png)
+
+![assets\screenshots\screenshot-2-prtk9-10.png](assets/screenshots/screenshot-2-prtk9-10.png)
+
+![assets\screenshots\screenshot-3-prtk9-10.png](assets/screenshots/screenshot-3-prtk9-10.png)
+
+![assets\screenshots\screenshot-4-prtk9-10.png](assets/screenshots/screenshot-4-prtk9-10.png)
+
+![assets\screenshots\screenshot-5-prtk9-10.png](assets/screenshots/screenshot-5-prtk9-10.png)
+
+![assets\screenshots\screenshot-6-prtk9-10.png](assets/screenshots/screenshot-6-prtk9-10.png)
+
+![assets\screenshots\screenshot-7-prtk9-10.png](assets/screenshots/screenshot-7-prtk9-10.png)
