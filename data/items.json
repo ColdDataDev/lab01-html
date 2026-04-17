@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "HTML Basic",
+    "category": "frontend",
+    "description": "Основи HTML",
+    "price": 100
+  },
+  {
+    "id": 2,
+    "title": "CSS Start",
+    "category": "frontend",
+    "description": "Основи CSS",
+    "price": 120
+  },
+  {
+    "id": 3,
+    "title": "JavaScript",
+    "category": "frontend",
+    "description": "Основи JavaScript",
+    "price": 150
+  },
+  {
+    "id": 4,
+    "title": "UI Design",
+    "category": "design",
+    "description": "Дизайн сайтів",
+    "price": 180
+  }
+]
