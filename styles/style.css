@@ -178,3 +178,11 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     background: #1a1a1a;
     color: white;
 }
+
+#status {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+    min-height: 25px;
+    margin: 10px 0;
+}

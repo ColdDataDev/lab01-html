@@ -1,0 +1,17 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "title": "HTML Pro",
+      "category": "frontend",
+      "price": 100
+    },
+    {
+      "title": "CSS Stat",
+      "category": "frontend",
+      "price": 120,
+      "id": "z5OQrynJI-E"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

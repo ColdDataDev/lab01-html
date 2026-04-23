@@ -135,3 +135,63 @@
 ![assets\screenshots\screenshot-6-prtk9-10.png](assets/screenshots/screenshot-6-prtk9-10.png)
 
 ![assets\screenshots\screenshot-7-prtk9-10.png](assets/screenshots/screenshot-7-prtk9-10.png)
+
+# Lab 05 CRUD Каталог товарів
+
+Практична робота з теми:  
+Взаємодія Front-end із сервером. REST API та CRUD-операції засобами JavaScript.
+
+## Реалізовано
+
+- Отримання списку товарів (GET)
+- Додавання товару (POST)
+- Редагування товару (PATCH)
+- Видалення товару (DELETE)
+- Повідомлення про успішні дії
+- Loading state
+- Empty state
+- Error state
+- Confirm перед видаленням
+
+## Технології
+
+- HTML
+- CSS
+- JavaScript
+- json-server
+
+## Запуск проєкту
+
+### 1. Запустити REST API сервер
+
+```bash
+json-server --watch db.json --port 3000
+
+```
+
+###  2. Відкрити у VS Code з Live Server
+
+http://127.0.0.1:5500/pages/admin.html
+
+### 3. API доступне за адресою
+
+http://127.0.0.1:3000/items
+
+
+### Screenshots
+
+![assets\screenshots\screenshot-1-prtk11-12.png](assets/screenshots/screenshot-1-prtk11-12.png)
+
+![assets\screenshots\screenshot-2-prtk11-12.png](assets/screenshots/screenshot-2-prtk11-12.png)
+
+![assets\screenshots\screenshot-3-prtk11-12.png](assets/screenshots/screenshot-3-prtk11-12.png)
+
+![assets\screenshots\screenshot-4-prtk11-12.png](assets/screenshots/screenshot-4-prtk11-12.png)
+
+![assets\screenshots\screenshot-5-prtk11-12.png](assets/screenshots/screenshot-5-prtk11-12.png)
+
+![assets\screenshots\screenshot-6-prtk11-12.png](assets/screenshots/screenshot-6-prtk11-12.png)
+
+![assets\screenshots\screenshot-7-prtk11-12.png](assets/screenshots/screenshot-7-prtk11-12.png)
+
+![assets\screenshots\screenshot-8-prtk11-12.png](assets/screenshots/screenshot-8-prtk11-12.png)
